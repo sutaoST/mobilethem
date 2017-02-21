@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "微软雅黑";
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    font-size: 87.5%;
+}
+.section1{
+    width:100% ;
+    height:6.429rem;
+    margin:0 auto;
+    background-color:#F7F7F7;
+}
+.section1 ul li{
+    float: left;
+}
+.logo-big{
+    width: 20%;
+    height:6.429rem;
+}
+#icons{
+    font-size: 1rem;
+    line-height: 6.429rem;
+    text-align: center;
+}
+.number{
+    width: 60%;
+    height:6.429rem;
+    margin:0 auto;
+    line-height: 6.429rem;
+    text-align: center;
+
+}
+.help{
+    width: 20%;
+    height:6.429rem;
+    margin:0 auto;
+    line-height: 6.429rem;
+    text-align: center;
+}
+
+.section2{
+    width: 100%;
+    height: 40.714rem;
+    background-color: #1199ff;
+    margin:0 auto;
+    overflow: hidden;
+}
+.pic-banner{
+    width:27.571rem;
+    height:20.286rem;
+    margin:0 auto;
+    padding-top:3.571rem;
+    padding-bottom:4.714rem;
+}
+.check{
+    width: 32.857rem;
+    height:6.286rem;
+    margin:0 auto;
+    border:2px solid #81bfff;
+    background: #62b0ff;
+    border-radius: 6.286rem;
+    line-height: 6.286rem;
+    text-align: center;
+    font-size:1rem;
+    color: #fff;
+    cursor: pointer;
+}
+.date{
+    text-align: center;
+    margin-top: 1.429rem;
+    font-size:1.571rem;
+    color: #8fccff;
+}
+
+.section3{
+    width: 100%;
+    height:7.143rem;
+}
+.section3 ul li{
+    float: left;
+}
+.w-left{
+    width: 50%;
+    height:7.143rem;
+}
+.bag{
+    height:2.286rem;
+    margin-top:34px;
+    float: left;
+    margin-right:1.429rem;
+}
+.bag img{
+    margin-left:2.143rem;
+}
+.hag-number{
+    display:inline-block;
+    float: left;
+    margin-top:40px;
+    color: #000;
+}
+.new{
+    width: 30%;
+    height: 7.143rem;
+}
+.news{
+    width:4.857rem;
+    height:2rem;
+    font-size: 1.286rem;
+    border:1px solid #ef4e4e;
+    border-radius: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    float: right;
+    margin-top:35px;
+    color: #ef4e4e;
+}
+.w-right{
+    width:20%;
+    height: 7.143rem;
+}
+#icon{
+    color: #B3B3B3;
+    font-size:2.143rem;
+    line-height: 7.143rem;
+    text-align: center;
+    margin-left: 2.143rem;
+}
+.section4{
+    width: 100%;
+    height: 7.143rem;
+    border-top:1px solid #dcdcdc;
+    border-bottom:1px solid #dcdcdc;
+}
+.wifi{
+    width:76%;
+    height: 7.143rem;
+    float: left;
+}
+.cicle{
+    width:24%;
+    height: 7.143rem;
+    float: left;
+}
+
+.hx{
+    width: 5rem;
+    height:2.143rem;
+    background:#92D2FF;
+    border-radius:2.143rem;
+    position: absolute;
+    top:0;
+    margin-top:2.143rem;
+}
+.yd{
+    width: 2.857rem;
+    height: 2.857rem;
+    background:#26A5FF;
+    border-radius: 2.857rem;
+    position: absolute;
+    right:0;
+    margin-top:25px;
+    cursor: pointer;
+}
+
+ .gd{
+    width: 70px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+.footer{
+    width: 100%;
+    height:2.8rem;
+    background: #282828;
+    margin-top: 25.000rem;
+}
+.footer img{
+    margin-left: 1rem;
+}
+ /*第三个页面*/
+.section5{
+    width: 100%;
+    height: 38.143rem;
+    margin-top:8.571rem;
+    overflow: hidden;
+}
+.imgs{
+    width: 39.857rem;
+    height: 38.143rem;
+    margin:0 auto;
+    overflow: hidden;
+}
+.section6{
+    width: 100%;
+    margin-top:8.571rem;
+}
+/*进度条*/
+.progress{
+    width:90%;
+    height: 11.7rem;
+    margin:0 auto;
+}
+.progress p{
+    text-align: center;
+    color: #858585;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+.progress>span{
+    display: block;
+    text-align: center;
+}
+.bai{
+    width: 90%;
+    height: 1.5rem;
+    background: #ecf0f3;
+    border-radius: 2rem;
+    position: relative;
+    margin:0 auto;
+}
+.green{
+    width: 0%;
+    height: 1.5rem;
+    background:#7ed321;
+    border-radius: 2rem;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+ @media (max-width: 435px){
+     .check {
+         width: 21.857rem;
+     }
+     .jdt{
+         width: 22.286rem;
+     }
+     .section5{
+         height: 435px;
+     }
+     .imgs{
+         height: 435px;
+     }
+     .imgs img{
+         width: 414px;
+     }
+ }
+@media(max-width:375px ){
+    .section5{
+        height: 355px;
+    }
+    .imgs{
+        width: 365px;
+    }
+    .imgs img{
+        width: 355px;
+    }
+}

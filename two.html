@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,height=device-height, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <title>号码百事通第三页</title>
+</head>
+<body>
+<div class="section1">
+    <ul>
+        <li class="logo-big"><span class="iconfont  icon-iconzuojiantou" id="icons"></span></li>
+        <li class="number">号码识别设置</li>
+    </ul>
+</div>
+<div class="section5">
+    <div class="imgs"><img src="img/bg_gengxin@2x.png"></div>
+</div>
+<div class="section6">
+    <!--<div class="number-jl">34%</div>-->
+    <!--<div class="number-jl" style="margin-top:20px">正在下载号码识别基础数据包....</div>-->
+    <!--<div class="jdt"></div>-->
+    <div class="progress">
+        <span>0%</span><br>
+        <p>正在下载号码识别基础数据包<span>...</span></p>
+        <div class="bai">
+            <div class="green"></div>
+        </div>
+    </div>
+</div>
+<script>
+    onload=function(){
+//        var n=0;
+//        var num;
+        var i=0;
+        var time;
+        var ss=function(){
+            i++;
+            $(".green").css("width",i+'%');
+            $(".progress >span").text(i+'%');
+            time=setTimeout(ss,200);
+            if (i>=99) {
+                ss='';
+                $(".progress p").text('数据包下载成功');
+            };
+        };
+        ss();
+//        var aa=function(){
+//            n++;
+//            num=setTimeout(aa, 800);
+//            if(n==1){
+//                $(".progress p span").text(".");
+//            }else if(n==2){
+//                $(".progress p span").text("..");
+//            }else if(n==3){
+//                $(".progress p span").text("...");
+//            }else if(n==4){
+//                $(".progress p span").text("....");
+//                n=0;
+//            }
+//        }
+//
+
+    }
+</script>
+<div class="footer">
+    <img src="img/footer.jpg">
+</div>
+</body>
+</html>
